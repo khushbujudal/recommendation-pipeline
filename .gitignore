@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Additional local environments and generated files
+.venv*/
+venv/
+.env
+*.log
+reports/final_report.editing.pdf

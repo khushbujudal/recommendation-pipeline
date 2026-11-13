@@ -1,0 +1,12 @@
+[SUCCESS] 01 ingestion
+[SUCCESS] 02 validation
+[SUCCESS] 03 preparation and time split
+[SUCCESS] 04 transformation
+[SUCCESS] 05 feature management
+[SUCCESS] 06 model training
+[SUCCESS] 07 model evaluation
+[SUCCESS] 08 experiment tracking
+       model  precision_at_k  recall_at_k  ndcg_at_k  coverage  diversity  evaluated_users
+  popularity        0.040678     0.118577   0.072216  0.191667   0.820213              177
+personalized        0.254802     0.754459   0.564886  1.000000   0.220088              177
+WORKFLOW SUCCESS | run_id=20261113T133331-678af732

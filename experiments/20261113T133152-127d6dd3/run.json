@@ -1,0 +1,54 @@
+{
+  "run_id": "20261113T133152-127d6dd3",
+  "parameters": {
+    "seed": 42,
+    "users": 180,
+    "items": 120,
+    "interactions_per_user": 36,
+    "train_fraction": 0.8,
+    "k": 10,
+    "positive_rating": 4,
+    "as_of": "2025-01-01T00:00:00Z",
+    "personalization_weight": 0.95
+  },
+  "metrics": [
+    {
+      "model": "popularity",
+      "precision_at_k": 0.040677966101694885,
+      "recall_at_k": 0.11857680925477537,
+      "ndcg_at_k": 0.07221588487480281,
+      "coverage": 0.19166666666666668,
+      "diversity": 0.8202134337727557,
+      "evaluated_users": 177
+    },
+    {
+      "model": "personalized",
+      "precision_at_k": 0.25480225988700567,
+      "recall_at_k": 0.754459241323648,
+      "ndcg_at_k": 0.5648860841563822,
+      "coverage": 1.0,
+      "diversity": 0.22008788449466415,
+      "evaluated_users": 177
+    }
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "sha256": {
+    "data/raw/interactions.csv": "d19dd9349b6c79039140974aec694d51f93bcc7d3f91d061e7f95f6d1ce7a12e",
+    "data/raw/items.csv": "2cacb1e3e11bce946077f61134b840f25be3df35e89f745a7d3a0906c47791a8",
+    "data/raw/users.csv": "58536d9cac926ef6530d84b167094d28b672da1593db629f45b47047e92e2b5a",
+    "src/__init__.py": "f07432bca6713e9f26232ce1b4ca264ce05cd1e32af146df865e8d736e5155d3",
+    "src/evaluation.py": "f38313f95be8285b57c20183957de95570c44beddf769c5a0492d8719b615fce",
+    "src/features.py": "ef40620e20d381ec81e57bc73c232e08eb3597d825d27ccf156ae71c3ab98110",
+    "src/ingestion.py": "048f087f0185b89c52b7aeaaf989a7b06860e414cb4f84b06268ee5c42f423ee",
+    "src/predict.py": "f32263adc11c7f737b59ec5acac486411b64e2f642f7e177d32b84ad67b9a18a",
+    "src/preparation.py": "a579c8295d27bf4b037daaefe2f136380631d4f6ee26fbcfc42939ef40abb9ab",
+    "src/tracking.py": "4b0512eb871db3367354a1b68149fe2c47685e44209be6cbfafc1d720e662c9c",
+    "src/training.py": "c934e6d24a7e42ed6a020972ae70e411db41e6f83e76001e31eb9bd92fa22436",
+    "src/transformation.py": "5e7fe19e217435b62acb6ff7a5f99502dda20773f48a96c49b0dcf76fe2056a1",
+    "src/validation.py": "f77d0f31fff6e52a4a84bb519228689e0f68cfd2a478dc2628770620ec210256"
+  }
+}

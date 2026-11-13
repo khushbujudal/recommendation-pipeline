@@ -1,0 +1,29 @@
+{
+  "users": {
+    "input": 180,
+    "accepted": 180,
+    "rejected": 0,
+    "reasons": {}
+  },
+  "items": {
+    "input": 120,
+    "accepted": 120,
+    "rejected": 0,
+    "reasons": {}
+  },
+  "interactions": {
+    "input": 6490,
+    "accepted": 6480,
+    "rejected": 10,
+    "reasons": {
+      "duplicate": 3,
+      "unknown_user": 2,
+      "invalid_timestamp": 2,
+      "invalid_rating": 2,
+      "incorrect_type_user_id": 1,
+      "missing_value": 1,
+      "incorrect_type_rating": 1,
+      "unknown_item": 1
+    }
+  }
+}

@@ -1,0 +1,13 @@
+entity,feature,grain,definition,type,source,missing_or_cold_default
+user,activity_count,user,Count of training interactions,integer,training interactions,0
+user,average_rating,user,Mean of training ratings,float,training interactions,Training global mean
+user,last_interaction,user,Latest training timestamp,UTC timestamp,training interactions,Missing
+user,days_since_last_interaction,user,Days between cutoff and latest training timestamp,float,training interactions,Missing
+user,preferred_category,user,Category with highest mean rating minus 3,string,training interactions and item metadata,unknown
+user,category_affinity,user category,Mean of rating minus 3 within category,float,training interactions and item metadata,0
+item,category,item,Normalized genre,string,item metadata,Reject empty
+item,activity_count,item,Count of training interactions,integer,training interactions,0
+item,average_rating,item,Mean training rating,float,training interactions,Training global mean
+item,positive_count,item,Count of training ratings at least 4,integer,training interactions,0
+item,popularity,item,Positive count divided by max item positive count,float,training interactions,0
+interaction,affinity,user item timestamp,Rating minus neutral value 3,float,training interactions,Reject invalid rating

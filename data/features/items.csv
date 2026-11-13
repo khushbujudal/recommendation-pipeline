@@ -1,0 +1,121 @@
+item_id,title,category,activity_count,average_rating,positive_count
+1,Synthetic Movie 001,action,56,3.3392857142857144,23
+2,Synthetic Movie 002,comedy,61,3.442622950819672,26
+3,Synthetic Movie 003,drama,60,3.466666666666667,27
+4,Synthetic Movie 004,fantasy,54,3.259259259259259,21
+5,Synthetic Movie 005,mystery,54,3.4074074074074074,24
+6,Synthetic Movie 006,science fiction,56,3.4464285714285716,23
+7,Synthetic Movie 007,action,60,3.433333333333333,27
+8,Synthetic Movie 008,comedy,45,3.4444444444444446,22
+9,Synthetic Movie 009,drama,57,3.263157894736842,22
+10,Synthetic Movie 010,fantasy,49,3.3877551020408165,21
+11,Synthetic Movie 011,mystery,48,3.4583333333333335,22
+12,Synthetic Movie 012,science fiction,50,3.34,20
+13,Synthetic Movie 013,action,48,3.25,19
+14,Synthetic Movie 014,comedy,59,3.389830508474576,24
+15,Synthetic Movie 015,drama,55,3.5636363636363635,31
+16,Synthetic Movie 016,fantasy,60,3.5166666666666666,30
+17,Synthetic Movie 017,mystery,57,3.526315789473684,27
+18,Synthetic Movie 018,science fiction,61,3.5737704918032787,31
+19,Synthetic Movie 019,action,52,3.1538461538461537,18
+20,Synthetic Movie 020,comedy,49,3.5918367346938775,25
+21,Synthetic Movie 021,drama,58,3.3793103448275863,26
+22,Synthetic Movie 022,fantasy,56,3.6964285714285716,30
+23,Synthetic Movie 023,mystery,57,3.5789473684210527,30
+24,Synthetic Movie 024,science fiction,60,3.283333333333333,23
+25,Synthetic Movie 025,action,59,3.2033898305084745,20
+26,Synthetic Movie 026,comedy,47,3.234042553191489,18
+27,Synthetic Movie 027,drama,52,3.2884615384615383,23
+28,Synthetic Movie 028,fantasy,62,3.532258064516129,27
+29,Synthetic Movie 029,mystery,60,3.183333333333333,19
+30,Synthetic Movie 030,science fiction,49,3.510204081632653,23
+31,Synthetic Movie 031,action,42,3.261904761904762,14
+32,Synthetic Movie 032,comedy,53,3.3773584905660377,20
+33,Synthetic Movie 033,drama,49,3.510204081632653,21
+34,Synthetic Movie 034,fantasy,60,3.433333333333333,30
+35,Synthetic Movie 035,mystery,43,3.511627906976744,18
+36,Synthetic Movie 036,science fiction,56,3.5,27
+37,Synthetic Movie 037,action,49,3.4489795918367347,22
+38,Synthetic Movie 038,comedy,52,3.2884615384615383,23
+39,Synthetic Movie 039,drama,47,3.382978723404255,21
+40,Synthetic Movie 040,fantasy,50,3.42,22
+41,Synthetic Movie 041,mystery,34,3.3823529411764706,15
+42,Synthetic Movie 042,science fiction,46,3.391304347826087,22
+43,Synthetic Movie 043,action,41,3.5121951219512195,19
+44,Synthetic Movie 044,comedy,43,3.4186046511627906,17
+45,Synthetic Movie 045,drama,43,3.3255813953488373,13
+46,Synthetic Movie 046,fantasy,57,3.491228070175439,25
+47,Synthetic Movie 047,mystery,42,3.6666666666666665,21
+48,Synthetic Movie 048,science fiction,56,3.482142857142857,23
+49,Synthetic Movie 049,action,46,3.5217391304347827,19
+50,Synthetic Movie 050,comedy,52,3.480769230769231,22
+51,Synthetic Movie 051,drama,40,3.425,15
+52,Synthetic Movie 052,fantasy,35,3.914285714285714,22
+53,Synthetic Movie 053,mystery,41,3.731707317073171,22
+54,Synthetic Movie 054,science fiction,41,3.7804878048780486,26
+55,Synthetic Movie 055,action,46,3.0434782608695654,14
+56,Synthetic Movie 056,comedy,56,3.267857142857143,21
+57,Synthetic Movie 057,drama,34,3.3529411764705883,16
+58,Synthetic Movie 058,fantasy,49,3.5510204081632653,23
+59,Synthetic Movie 059,mystery,51,3.7450980392156863,28
+60,Synthetic Movie 060,science fiction,50,3.32,18
+61,Synthetic Movie 061,action,46,3.5652173913043477,24
+62,Synthetic Movie 062,comedy,37,3.4864864864864864,18
+63,Synthetic Movie 063,drama,41,3.4878048780487805,19
+64,Synthetic Movie 064,fantasy,44,3.590909090909091,23
+65,Synthetic Movie 065,mystery,47,3.74468085106383,28
+66,Synthetic Movie 066,science fiction,39,3.769230769230769,24
+67,Synthetic Movie 067,action,30,3.566666666666667,14
+68,Synthetic Movie 068,comedy,35,3.342857142857143,11
+69,Synthetic Movie 069,drama,39,3.3846153846153846,17
+70,Synthetic Movie 070,fantasy,47,3.5106382978723403,23
+71,Synthetic Movie 071,mystery,47,3.425531914893617,20
+72,Synthetic Movie 072,science fiction,40,3.575,21
+73,Synthetic Movie 073,action,48,3.3541666666666665,20
+74,Synthetic Movie 074,comedy,35,3.4,17
+75,Synthetic Movie 075,drama,43,3.511627906976744,24
+76,Synthetic Movie 076,fantasy,40,3.975,26
+77,Synthetic Movie 077,mystery,50,3.54,24
+78,Synthetic Movie 078,science fiction,39,3.4871794871794872,17
+79,Synthetic Movie 079,action,37,3.108108108108108,13
+80,Synthetic Movie 080,comedy,44,3.409090909090909,21
+81,Synthetic Movie 081,drama,48,3.3125,21
+82,Synthetic Movie 082,fantasy,46,3.5217391304347827,22
+83,Synthetic Movie 083,mystery,39,3.358974358974359,16
+84,Synthetic Movie 084,science fiction,46,3.739130434782609,26
+85,Synthetic Movie 085,action,33,3.3636363636363638,14
+86,Synthetic Movie 086,comedy,36,3.2222222222222223,14
+87,Synthetic Movie 087,drama,36,3.4166666666666665,16
+88,Synthetic Movie 088,fantasy,36,3.5555555555555554,21
+89,Synthetic Movie 089,mystery,31,3.838709677419355,20
+90,Synthetic Movie 090,science fiction,34,3.7058823529411766,16
+91,Synthetic Movie 091,action,37,3.4324324324324325,12
+92,Synthetic Movie 092,comedy,43,3.395348837209302,15
+93,Synthetic Movie 093,drama,41,3.6097560975609757,23
+94,Synthetic Movie 094,fantasy,39,3.641025641025641,20
+95,Synthetic Movie 095,mystery,39,3.5128205128205128,20
+96,Synthetic Movie 096,science fiction,35,3.342857142857143,14
+97,Synthetic Movie 097,action,32,3.21875,12
+98,Synthetic Movie 098,comedy,34,3.3823529411764706,14
+99,Synthetic Movie 099,drama,22,3.409090909090909,11
+100,Synthetic Movie 100,fantasy,41,3.6097560975609757,25
+101,Synthetic Movie 101,mystery,30,3.8,19
+102,Synthetic Movie 102,science fiction,37,3.945945945945946,23
+103,Synthetic Movie 103,action,24,3.25,8
+104,Synthetic Movie 104,comedy,28,3.5,12
+105,Synthetic Movie 105,drama,27,3.5555555555555554,12
+106,Synthetic Movie 106,fantasy,29,3.5517241379310347,14
+107,Synthetic Movie 107,mystery,27,3.2962962962962963,8
+108,Synthetic Movie 108,science fiction,26,3.3846153846153846,11
+109,Synthetic Movie 109,action,21,3.238095238095238,9
+110,Synthetic Movie 110,comedy,28,3.5714285714285716,16
+111,Synthetic Movie 111,drama,26,3.230769230769231,8
+112,Synthetic Movie 112,fantasy,36,3.7777777777777777,21
+113,Synthetic Movie 113,mystery,21,3.2857142857142856,7
+114,Synthetic Movie 114,science fiction,24,3.375,11
+115,Synthetic Movie 115,action,26,3.3461538461538463,10
+116,Synthetic Movie 116,comedy,31,3.4193548387096775,16
+117,Synthetic Movie 117,drama,29,3.793103448275862,15
+118,Synthetic Movie 118,fantasy,26,3.4615384615384617,12
+119,Synthetic Movie 119,mystery,25,3.72,16
+120,Synthetic Movie 120,science fiction,32,3.71875,18

@@ -1,0 +1,46 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+body{font:16px Arial;background:#f3f5f7;color:#17212e;margin:35px}main{background:white;padding:30px;max-width:1100px;margin:auto}h1{font-size:28px;margin:0 0 8px}h2{font-size:19px;margin-top:25px}table{border-collapse:collapse;width:100%;font-size:14px}th,td{border:1px solid #d3dbe2;padding:9px;text-align:left}th{background:#edf1f5}.ok{color:#11733e;font-weight:bold}pre{background:#17212e;color:#f1f6fa;padding:18px;font-size:13px;white-space:pre-wrap}p{line-height:1.5}</style></head><body><main><h1>Recommendation Pipeline Run Evidence</h1><p class="ok">SUCCESS — all eight tasks completed</p><p>Run ID: 20261113T133722-082e851c<br>UTC start: 2026-11-13T13:37:22.199855+00:00<br>Train / test rows: 5184 / 1296</p><table><tr><th>Task</th><th>Status</th><th>Duration</th></tr><tr><td>01 ingestion</td><td class="ok">success</td><td>0.1864s</td></tr><tr><td>02 validation</td><td class="ok">success</td><td>0.0286s</td></tr><tr><td>03 preparation and time split</td><td class="ok">success</td><td>0.0284s</td></tr><tr><td>04 transformation</td><td class="ok">success</td><td>0.0165s</td></tr><tr><td>05 feature management</td><td class="ok">success</td><td>0.0299s</td></tr><tr><td>06 model training</td><td class="ok">success</td><td>0.0009s</td></tr><tr><td>07 model evaluation</td><td class="ok">success</td><td>0.0491s</td></tr><tr><td>08 experiment tracking</td><td class="ok">success</td><td>0.0029s</td></tr></table><h2>Measured evaluation at K = 10</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>model</th>
+      <th>precision_at_k</th>
+      <th>recall_at_k</th>
+      <th>ndcg_at_k</th>
+      <th>coverage</th>
+      <th>diversity</th>
+      <th>evaluated_users</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>popularity</td>
+      <td>0.0407</td>
+      <td>0.1186</td>
+      <td>0.0722</td>
+      <td>0.1917</td>
+      <td>0.8202</td>
+      <td>177</td>
+    </tr>
+    <tr>
+      <td>personalized</td>
+      <td>0.2548</td>
+      <td>0.7545</td>
+      <td>0.5649</td>
+      <td>1.0000</td>
+      <td>0.2201</td>
+      <td>177</td>
+    </tr>
+  </tbody>
+</table><h2>Captured workflow stdout</h2><pre>[SUCCESS] 01 ingestion
+[SUCCESS] 02 validation
+[SUCCESS] 03 preparation and time split
+[SUCCESS] 04 transformation
+[SUCCESS] 05 feature management
+[SUCCESS] 06 model training
+[SUCCESS] 07 model evaluation
+[SUCCESS] 08 experiment tracking
+       model  precision_at_k  recall_at_k  ndcg_at_k  coverage  diversity  evaluated_users
+  popularity        0.040678     0.118577   0.072216  0.191667   0.820213              177
+personalized        0.254802     0.754459   0.564886  1.000000   0.220088              177
+WORKFLOW SUCCESS | run_id=20261113T133331-678af732
+</pre><p>Local execution report generated from workflow_run.json, evaluation.csv and captured stdout. Synthetic movie dataset; custom Python orchestration.</p></main></body></html>

@@ -1,0 +1,1 @@
+{"seed": 42, "users": 180, "items": 120, "interactions_per_user": 36, "train_fraction": 0.8, "k": 10, "positive_rating": 4, "as_of": "2025-01-01T00:00:00Z", "personalization_weight": 0.95}
